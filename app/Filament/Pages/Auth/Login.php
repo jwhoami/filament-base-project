@@ -17,7 +17,7 @@ class Login extends AuthLogin
   {
     return $form
       ->schema([
-        TextInput::make('email')
+        TextInput::make('username')
           ->label(__('login.fields.username.label'))
           ->required()
           ->autocomplete(),
